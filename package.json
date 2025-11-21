@@ -1,0 +1,18 @@
+{
+  "name": "30-funny",
+  "version": "1.0.0",
+  "description": "Auto downloader 25 TikTok + 5 YouTube Shorts y upload a Google Drive (Publica Hoy)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "run-now": "RUN_NOW=1 node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "googleapis": "^131.0.0",
+    "node-cron": "^3.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^12.6.0"
+  }
+}
